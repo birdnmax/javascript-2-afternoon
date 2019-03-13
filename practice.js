@@ -14,9 +14,12 @@
   Then alert your name using dot notation.
 */
 
-//Code here
+const me = {
+  name: "Brittany",
+  age: 28
+}
 
-
+alert (me.name);
 
 ////////// PROBLEM 2 //////////
 
@@ -26,7 +29,14 @@
 */
 
 //Code here
-
+const favoriteThings = {
+  band = "Steeldrivers",
+  food = "spaetzle",
+  person = "Anthony Bourdain",
+  book = "Wild",
+  movie = "Coraline",
+  holiday = "Thanksgiving"
+}
 
 
 /*
@@ -34,7 +44,8 @@
 */
 
 //Code here
-
+favoriteThings.car = "Subaru";
+favoriteThings.brand = "Cotopaxi";
 
 
 /*
@@ -42,7 +53,8 @@
 */
 
 //Code here
-
+favoriteThings.food = "Chicken Nuggets";
+favoriteThings.book = "Harry Potter";
 
 
 ////////// PROBLEM 3 //////////
@@ -56,15 +68,21 @@
 */
 
 //Code here
+const backPack = {
+
+}
 
 
+const item = "firstPocket";
+backPack[firstPocket] = "chapstick";
+backPack.color = "green";
 
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
-
+alert (backPack);
 
 
 /*
@@ -98,7 +116,8 @@ var user2 = {
 
 //Code Here
 
-
+user2.name['Tyler S. McGinnis'];
+user2.email['tyler.mcginnis@devmounta.in'];
 
 
 
@@ -119,7 +138,9 @@ var user2 = {
   Create an empty object called methodCollection.
 */
 
-//Code Here
+const methodCollection = {
+
+}
 
 
 
@@ -129,14 +150,21 @@ var user2 = {
 */
 
 //Code Here
+methodCollection.alertHello[
+  alert ('hello')
+]
 
-
-
+methodCollection.logHello[
+  console.log(alert)
+]
 /*
   Now call your alertHello and logHello methods.
 */
 
 //Code Here
+methodCollection.alertHello();
+
+methodCollection.logHello();
 
 
 
