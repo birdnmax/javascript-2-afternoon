@@ -176,6 +176,13 @@ methodCollection.logHello();
 */
 
 //Code Here
+function makePerson(name, birthday, ssn){
+  this.name = name,
+  this.birthday = birthday,
+  this.ssn = ssn;
+}
+
+var Brittany = makePerson('Brittany', '6/1/90', 55512345);
 
 
 
@@ -188,4 +195,8 @@ methodCollection.logHello();
 
 //Code Here
 
-
+function makeCard(cardNumber, expirationDate, securityCode){
+  this.carNumber = (Math.floor(Math.random() * 100000000000000) + 10000000000000),
+  this.expirationDate = ((Math.floor(Math.random() 11) + 1) && (Math.floor(Math.random() * 2025) + 2020)),
+  this.securityCode = (Math.floor(Math.random() * 1000) + 100)
+}
